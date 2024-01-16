@@ -1,0 +1,228 @@
+body {
+    /* width: 100%; */
+}
+
+.container {}
+
+.page {}
+
+.page__2 {
+    background-color: #F6F6F6;
+    flex-shrink: 0;
+}
+
+.page__3 {}
+
+.header {
+
+    color: #000;
+
+    font-family: Zen Maru Gothic;
+    font-size: 18px;
+    font-style: normal;
+
+    line-height: 150%;
+
+    letter-spacing: 0.36px;
+}
+
+.header__1 {
+    padding-left: 18px;
+
+    color: #000;
+    font-family: Zen Maru Gothic;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+
+    letter-spacing: 0.36px;
+}
+
+.title {
+    color: #000;
+    font-feature-settings: 'palt' on;
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%;
+}
+
+.title__1 {
+    color: #616161;
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+.title__2 {
+    color: #000;
+    padding: 10px;
+    font-feature-settings: 'palt' on;
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+
+}
+
+.card__sidebar {
+    display: flex;
+}
+
+.container__btn {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.btn {
+    display: flex;
+    width: 336px;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: none;
+    flex-shrink: 0;
+}
+
+.information {
+    display: flex;
+    width: 375px;
+    height: 90px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.information__child {
+    display: flex;
+    /* width: 375px;
+    height: 90px; */
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    background: #E7E7E7;
+}
+
+.information__child>img {
+    background-color: white;
+    width: 24px;
+    height: 24px;
+}
+
+.sub__description {
+    color: #000;
+    text-align: right;
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+
+}
+
+.sub__description__1 {
+    color: #000;
+
+    /* h2 */
+    font-family: Zen Maru Gothic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 30px */
+    letter-spacing: 1px;
+}
+
+.main {
+    background-color: #FFF;
+}
+
+.description__2 {
+    color: #000;
+    font-family: Futura;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+}
+
+
+.content {
+    color: #000;
+    font-family: Zen Maru Gothic;
+    font-size: 20px;
+    font-style: normal;
+    /* font-weight: 500; */
+    line-height: 150%;
+    /* 30px */
+    letter-spacing: 1px;
+}
+
+.h2__main {
+
+    /* h3 */
+    font-family: Zen Maru Gothic;
+    font-size: 18px;
+    font-style: normal;
+    /* font-weight: 500; */
+    line-height: 150%;
+    /* 27px */
+    letter-spacing: 0.36px;
+}
+
+.frame__6 {}
+
+.header__2 {
+    display: flex;
+}
+
+.header__2>p {
+    color: #616161;
+    text-align: center;
+
+    /* body - bold */
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    /* 22.4px */
+}
+
+.content__1 {
+    display: flex;
+}
+
+.content__1>p {
+    color: #000;
+    padding: 15px;
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+.sub__description-2 {
+    display: flex;
+}
+
+.sub__description-2>p {}
+
+.content__2 {
+    display: flex;
+
+}
+
+.arrow__down {
+    padding: 10px 160px;
+}
