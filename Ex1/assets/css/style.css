@@ -1,41 +1,37 @@
 body {
     /* width: 100%; */
+    height: 100%;
+    padding: 10px;
 }
 
 .container {}
 
-.page {}
 
 .page__2 {
     background-color: #F6F6F6;
     flex-shrink: 0;
 }
 
-.page__3 {}
-
 .header {
-
     color: #000;
-
     font-family: Zen Maru Gothic;
     font-size: 18px;
     font-style: normal;
-
     line-height: 150%;
-
     letter-spacing: 0.36px;
 }
 
 .header__1 {
-    padding-left: 18px;
-
+    width: 184px;
+    height: 54px;
+    /* padding-left: 18px; */
+    margin-left: 17px;
     color: #000;
     font-family: Zen Maru Gothic;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 150%;
-
     letter-spacing: 0.36px;
 }
 
@@ -47,15 +43,20 @@ body {
     font-style: normal;
     font-weight: 300;
     line-height: 160%;
+    letter-spacing: 3px;
 }
 
 .title__1 {
+    width: 266px;
+    height: 22px;
     color: #616161;
     font-family: Hiragino Kaku Gothic Pro;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
     line-height: 160%;
+    margin-left: 35px;
+    text-align: center;
 }
 
 .title__2 {
@@ -155,6 +156,27 @@ body {
     line-height: 160%;
 }
 
+.box__4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 25px;
+}
+
+.card__box-4 {
+    gap: 5px;
+}
+
+.card__box-4>p {
+    color: #000;
+    font-family: Hiragino Kaku Gothic Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+}
+
 
 .content {
     color: #000;
@@ -179,7 +201,7 @@ body {
     letter-spacing: 0.36px;
 }
 
-.frame__6 {}
+
 
 .header__2 {
     display: flex;
@@ -225,4 +247,5 @@ body {
 
 .arrow__down {
     padding: 10px 160px;
+    margin-left: 20px;
 }

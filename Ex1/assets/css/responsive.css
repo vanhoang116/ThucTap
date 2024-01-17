@@ -55,3 +55,12 @@
         font-size: 14px;
       }
     }
+
+    @media (max-width: 500px) {
+      .image {
+        width: 100%;
+      }
+      .card__box-4 {
+        width: calc((100% / 2)) ;
+      }
+    }
