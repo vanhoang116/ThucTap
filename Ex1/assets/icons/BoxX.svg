@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="137" height="50" viewBox="0 0 137 50" fill="none">
+  <g clip-path="url(#clip0_1033_1609)">
+    <rect x="0.5" y="0.5" width="136" height="49" fill="#E7E7E7"/>
+    <line y1="-0.5" x2="146.779" y2="-0.5" transform="matrix(0.940191 0.340649 -0.657256 0.753668 -0.5 0.5)" stroke="#A2A2A2"/>
+    <line y1="-0.5" x2="146.779" y2="-0.5" transform="matrix(-0.940191 0.340649 0.657256 0.753668 137.5 0.5)" stroke="#A2A2A2"/>
+  </g>
+  <rect x="1" y="1" width="135" height="48" stroke="#A2A2A2"/>
+  <defs>
+    <clipPath id="clip0_1033_1609">
+      <rect x="0.5" y="0.5" width="136" height="49" fill="white"/>
+    </clipPath>
+  </defs>
+</svg>
